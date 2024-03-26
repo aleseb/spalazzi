@@ -1,4 +1,5 @@
 # spalazzi
 progetto di advanced cybersecurity
-\\spiegazione del progetto:
+
+spiegazione del progetto:
 
