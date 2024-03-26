@@ -7,5 +7,23 @@ con questi nomi dei domini devo estrarre monogrammi (es univpm è u n i v p m), 
 
 quello che ho fatto io è prendere i file di log, filtrarli per il dominio, concatenarli ed estrarre mono bi e trigrammi tramite algoritmo che ho creato e infine salvarli su un file csv per ogni tipologia mono bi tri. 
 
+ora i passi da fare sono questi: 
+
+- Prendere il classificatore di tipo ensemble denominato stack.
+
+  
+- Addestrare lo strato di embedding con mono,bi,tri-grammi e aggiungerlo al classificatore.
+
+  
+- Prendere il dataset etichettato UMUDGA (https://data.mendeley.com/datasets/y8ph45msv8/1) In particolare i csv da 10.000 campioni per classe.
+
+  
+- creare tre taglie diverse per ogni classe: 1/50, 1/25, 1/10.
+
+  
+- Fare la k-fold cross evaluation (se possibile k=10) per ognuna delle tre taglie .
+
+  
+
 
 
